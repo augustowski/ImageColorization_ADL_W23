@@ -1,6 +1,6 @@
-# Applied Deep Learning, WS23, Image Colorization 
+# Applied Deep Learning, WS23 
 
-Anastasia Cissa, 11937948 
+author: Anastasia Cissa, 11937948 
 
 ## Table of Contents
 
@@ -15,17 +15,21 @@ Previously, image colorization models weren't used in Moldova (my homecountry); 
 
 In this project I focus on collecting own data test set, so type of the project is "Bring your own data". It will contain scanned photos from family and town archive. Later on, they will be processed and adjusted, so they could be used by existing models. For training one of these datasets will be used: [Places](http://places.csail.mit.edu/index.html) or [ImageNet](https://image-net.org/index.php). They are free for non-commercial research purposes and provide sufficient amount of the data to train the model. 
 
-Based on research of the existing models, I will try to implement either conditional Generative Adversarial Networks (GAN) or U-NET models. 
+Based on research of the existing models, I will try to implement either conditional Generative Adversarial Networks (GAN) or U-NET models (most probablz the first one). 
 
 ## References to scientific papers related to the chosen topic
 
 Papers mentioned below describe existing approaches to the problem of Image Colorization. This broad overview of current models influences the core of the future project. 
 
-* [S. Jiang, Q. Luo and H. Bi, "Image Colorization : GAN and Autoencoder Models’ Performance Comparison," 2022](https://ieeexplore.ieee.org/document/9943130)
-* [Wang, N., Chen, G.-D., Tian Y., "Image Colorization Algorithm Based on Deep Learning", 2022.](https://doi.org/10.3390/sym14112295)
-* [Satoshi Iizuka, Edgar Simo-Serra, and Hiroshi Ishikawa, "Let there be Color!: Joint End-to-end Learning of Global and Local Image Priors for Automatic Image Colorization with Simultaneous Classification", 2016.]()
-* [Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros, "Image-to-Image Translation with Conditional Adversarial Networks", 2017.](https://arxiv.org/abs/1611.07004)
-* [K. Nazeri, E. Ng, M. Ebrahimi, "Image Colorization using Generative Adversarial Networks", 2018](https://link.springer.com/chapter/10.1007/978-3-319-94544-6_9)
+* [S. Jiang, Q. Luo and H. Bi, "Image Colorization : GAN and Autoencoder Models’ Performance Comparison," 2022](https://ieeexplore.ieee.org/document/9943130) : Comparison of two well-performing models of Image Colorization: GAN and Autoencoder;  
+* [Wang, N., Chen, G.-D., Tian Y., "Image Colorization Algorithm Based on Deep Learning", 2022.](https://doi.org/10.3390/sym14112295) :
+Paper describes a new improved approach of U-NET model - CU-NET, which focuses on collecting more feature information and reducing preformance time for training; 
+* [Satoshi Iizuka, Edgar Simo-Serra, and Hiroshi Ishikawa, "Let there be Color!: Joint End-to-end Learning of Global and Local Image Priors for Automatic Image Colorization with Simultaneous Classification", 2016.](http://iizuka.cs.tsukuba.ac.jp/projects/colorization/en/) :
+CNN approach to Image Colorization problem;
+* [Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros, "Image-to-Image Translation with Conditional Adversarial Networks", 2017.](https://arxiv.org/abs/1611.07004) :
+Conditional GAN approach - the one meant to be implemented in this works;
+* [K. Nazeri, E. Ng, M. Ebrahimi, "Image Colorization using Generative Adversarial Networks", 2018](https://link.springer.com/chapter/10.1007/978-3-319-94544-6_9) : 
+Thorough description of conditional GAN implementation. 
 
 ## Work estimates 
 
@@ -39,3 +43,5 @@ Implementing tests, documenting the code | 8 hours
 Build application to present results | 4 hours
 Writing the final report | 5 hours
 Preparing presentation of the work | 5 hours
+
+Most likely time spent on the work will be prolonged due to author's experience. 
