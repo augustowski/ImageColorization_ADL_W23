@@ -1,6 +1,6 @@
 # Applied Deep Learning, WS23 
 
-author: Anastasia Cissa, 11937948 
+Author: Anastasia Cissa, 11937948 
 
 ## Table of Contents
 
